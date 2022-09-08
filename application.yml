@@ -1,6 +1,6 @@
 clientName: dopimex
 databaseHost: localhost
-defaultPassword: ast@${clientName}
+defaultPassword: ast123
 port:
   eureka: 8001
   gateway: 8000
