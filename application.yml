@@ -5,6 +5,7 @@ port:
   gateway: 8000
 jwt:
   secret: BvPHGM8C0ia4uOuxxqPD5DTbWC9F9TWvPStp3pb7ARo0oK2mJ3pd3YG4lxA9i8bj6OTbadwezxgeEByY
+  expiration: 8460L
 spring:
   datasource:
     url: jdbc:mysql://${databaseHost}:3306/${clientName}_${spring.application.name}
